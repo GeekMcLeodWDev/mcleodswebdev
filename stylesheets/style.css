@@ -1,0 +1,150 @@
+html, body {
+  font-family: Arimo, 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header, section, footer, aside, nav, article, hgroup {
+	display:block;
+}
+#header {
+	padding-right:10px;
+	padding-left:10px;
+	position: fixed;
+	color:#6699ff;
+	background-color:#1a1a1a;
+	padding-left:160px;
+	width:820px;
+	z-index:9;
+}
+body {
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+	background:#e5f2ff;
+}
+#container {
+	max-width:1000px;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+article {
+	border:1px solid black;
+	display:-webkit-box;
+	padding:10px;
+	margin:10px;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width:150px;
+	background-color:#1a1a1a;
+	position:fixed;
+	overflow: auto;
+	height:795px;
+	text-align:center;
+	line-height:35px;
+	padding-top:100px;
+	z-index:8;
+	display:-webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+}
+nav ul li {
+	display:block;
+}
+#greeting {
+	color:#6699ff;
+	width:150px;
+	height:75px;
+	font-size:30px;
+	text-align:center;
+	position:fixed;
+	top:-20px;
+	z-index:10;
+	background-color:transparent;
+}
+#contact_form {
+	z-index:13;
+	position:fixed;
+	color:#6699ff;
+	padding-top:50px;
+}
+#mainbody {
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+}
+#main {
+	display:-webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	position: relative;
+	left:150px;
+	margin-right:150px;
+	height:450px;
+	bottom:110px;
+	z-index:1;
+}
+#rightside {
+	display:-webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	position: relative;
+	left:160px;
+	margin-right:170px;
+	height:250px;
+	bottom:110px;
+	z-index:1;
+	border:1px solid black;
+	padding-left:10px;
+}
+#last {
+	display:-webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	position: relative;
+	left:160px;
+	margin-right:170px;
+	height:65px;
+	margin-top:-55px;
+	bottom:20px;
+	z-index:1;
+	border:1px solid black;
+	padding-left:10px;
+}
+
+li a {
+	display:block;
+	width:150px;
+}
+li a:link {
+	color:#6699ff;
+	text-decoration:none;
+} 
+li a:visited {
+	color:white;
+	text-decoration:none;
+}
+li a:hover {
+	font-size:110%;
+	color: #1a1a1a;
+	text-decoration:none;
+	background-color: #6699ff;
+}
+li a:active {
+	background-color:black;
+	color:white;
+	text-decoration:none;
+}
+li a.active {
+	background-color:#0066ff;
+	color:white;
+}
+nav {
+	margin-top:5px;
+	width:150px;
+	height:200px;
+}
